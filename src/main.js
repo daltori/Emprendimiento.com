@@ -5,9 +5,9 @@ import store from './store'
 
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-
-Vue.config.productionTip = false
+import Lottie from "vue-lottie";
+Vue.component("lottie", Lottie);
+Vue.config.productionTip = false;
 
 new Vue({
   router,

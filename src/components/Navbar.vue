@@ -9,10 +9,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">inicio</a>
+            <router-link class="nav-link"  to="/">inicio</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/servicios">servicios</a>
+            <router-link class="nav-link" to="/about">servicios</router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>
