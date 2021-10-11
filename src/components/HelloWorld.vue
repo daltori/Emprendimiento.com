@@ -1,5 +1,11 @@
 <template>
   <div class="hello">
+    <lottie
+      v-if="true"
+      :options="defaultOptions"
+      :height="220"
+      :width="180"
+    />
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -33,11 +39,43 @@
 </template>
 
 <script>
+import Lottie from "vue-lottie";
+import * as animationData from "../assets/prueba.json";
 export default {
   name: 'HelloWorld',
-  props: {
+   components: {
+    Lottie
+  },
+
+  data() {
+    return {
+      defaultOptions: { animationData: animationData },
+      animationSpeed:1
+    };
+},
+methods: {
+    handleAnimation: function(anim) {
+      this.anim = anim;
+    },
+
+    stop: function() {
+      this.anim.stop();
+    },
+
+    play: function() {
+      this.anim.play();
+    },
+
+    pause: function() {
+      this.anim.pause();
+    },
+
+    onSpeedChange: function() {
+      this.anim.setSpeed(this.animationSpeed);
+    }
+  }, props: {
     msg: String
-  }
+  },
 }
 </script>
 
