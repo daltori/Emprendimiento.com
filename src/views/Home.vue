@@ -1,19 +1,27 @@
 <template>
   <div>
     <carrucel></carrucel>
-    <h2>Noticias</h2>
+    <br>
+    <h2 >Servicios</h2>
+    <div class="  d-flex  flex-wrap bd-highlight pt-4">
+    <servicios class="col-md-4 col-6 d-flex justify-content-center pt-4"></servicios>
+    <servicios class="col-md-4 col-6 d-flex justify-content-center pt-4"></servicios>
+    <servicios class="col-md-4 col-12 d-flex justify-content-center pt-4"></servicios>
+    </div>
+    <h2 class="pt-4">Noticias</h2>
     <div class=" d-flex flex-row pt-4">
 
-    <Noticias class="col-md-6 col-12"></Noticias>
+    <noticiasinver class="col-md-6 col-12"></noticiasinver>
     <Noticias class="col-md-6  col-12"></Noticias>
     
     </div>
     <div class=" d-flex flex-row pt-4">
 
-    <Noticias class="col-md-6 col-12"></Noticias>
+    <Noticiasinver class="col-md-6 col-12"></Noticiasinver>
     <Noticias class="col-md-6  col-12"></Noticias>
     
     </div>
+    <noticiasinver class="col-md-6 col-12"></noticiasinver>
     
     <HelloWorld/>
   </div>
@@ -24,6 +32,8 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 import Noticias from '@/components/Noticias.vue'
 import Carrucel from '../components/Carrucel.vue';
+import Noticiasinver from '../components/Noticiasinver.vue';
+import Servicios from '../components/servicios.vue';
 
 
 
@@ -32,7 +42,9 @@ export default {
   name: 'Home',
   components: {
     HelloWorld,
-    Carrucel,Noticias
+    Carrucel,Noticias,
+    Noticiasinver,
+    Servicios
   }
 }
 </script>
