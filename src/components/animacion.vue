@@ -14,7 +14,7 @@
  
 <script>
   import Lottie from "../../node_modules/vue-lottie/src/lottie.vue";
-  import * as animationData from '../assets/71230-sign-in-green.json';
+  import * as animationData from '../assets/monster.json';
  
   export default {
     name: 'animacion',

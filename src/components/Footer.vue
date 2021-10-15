@@ -18,6 +18,9 @@
             <li><a class="text-muted" href="#">Final resource</a></li>
           </ul>
         </div>
+        <div  class="col-4 col-md">
+          <animacion></animacion>
+        </div>
         
       </div>
       </div>
