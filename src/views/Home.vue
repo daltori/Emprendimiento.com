@@ -23,17 +23,17 @@
     </div>
     <noticiasinver class="col-md-6 col-12"></noticiasinver>
     
-    <HelloWorld/>
+    <team></team>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 import Noticias from '@/components/Noticias.vue'
 import Carrucel from '../components/Carrucel.vue';
 import Noticiasinver from '../components/Noticiasinver.vue';
 import Servicios from '../components/servicios.vue';
+import Team from '../components/team.vue';
 
 
 
@@ -41,10 +41,11 @@ import Servicios from '../components/servicios.vue';
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
+    
     Carrucel,Noticias,
     Noticiasinver,
-    Servicios
+    Servicios, Team
   }
 }
-</script>
+
+   </script>
