@@ -1,11 +1,11 @@
 <template>
 <div>
   <div class="card " style="width: 18rem;">
-  <img src="https://i.blogs.es/2b7c9a/moon-colors/450_1000.jpg" class="card-img-top" alt="...">
+  <img src="https://i.ytimg.com/vi/3kVsrFCIJps/maxresdefault.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Curso de emprendimiento</h5>
+    <p class="card-text">Inicia con nosotros una ruta de aprendizaje diseñada para que te adentres en el mundo del emprendimiento y sé tu propia inspiración</p>
+    <a href="#" class="btn btn-primary">Iniciemos</a>
   </div>
 </div>
 </div>

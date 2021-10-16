@@ -1,14 +1,7 @@
 <template id="animacion">
     <div >
-        <lottie :options="defaultOptions" :height="400" :width="400" :view=true v-on:animCreated="handleAnimation"/>
-        <div>
-            <p>Speed: x{{animationSpeed}}</p>
-            <input type="range" value="1" min="0" max="3" step="0.5"
-                   v-on:change="onSpeedChange" v-model="animationSpeed">
-        </div>
-        <button v-on:click="stop">stop</button>
-        <button v-on:click="pause">pause</button>
-        <button v-on:click="play">play</button>
+        <lottie :options="defaultOptions" :height="200" :width="200" :view=true v-on:animCreated="handleAnimation"/>
+    
     </div>
 </template>
  

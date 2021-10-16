@@ -7,7 +7,7 @@
         </div>
         <div class="col-4 col-md">
           <h5 class="text-light">Features</h5>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat aspernatur accusamus inventore, consequuntur sapiente in veritatis quidem ducimus magni non nisi sequi nam nobis beatae quam explicabo blanditiis. Magnam, voluptate.</p>
+          <p>El emprendimiento en épocas de crisis a sido la mejor manera de poder impulsar la economía mundial ,creando empresas nuevas de manera que su mayor prioridad son los nuevos retos,la redes sociales juegan un papel importante.una nueva manera de poder emprender llevando la información a través de la red impulsando nuevos modelos de negocios en la industria 4.0</p>
         </div>
         <div class="col-4 col-md">
           <h5 class="text-light">Resources</h5>
@@ -27,9 +27,11 @@
 </template>
 
 <script>
- 
+ import animacion from '@/components/animacion.vue'
   export default {
     name: 'footer',
-  
-  };
+    components: {
+    
+    animacion
+  }};
 </script>

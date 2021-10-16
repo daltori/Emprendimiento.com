@@ -15,10 +15,13 @@
             <router-link class="nav-link" to="/servicios">Servicios</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Noticias</a>
+            <router-link class="nav-link" to="/noticias-add">Noticias</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Iniciar sesión</a>
+            <router-link class="nav-link" to="/Login">Iniciar sesión</router-link>
+          </li>
+           <li class="nav-item">
+            <router-link class="nav-link" to="/table-users">Tabla de Usuarios</router-link>
           </li>
 
         </ul>
